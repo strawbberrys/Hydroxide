@@ -92,7 +92,7 @@ nmcTrampoline = hookMetaMethod(game, "__namecall", function(...)
 end)
 
 -- vuln fix
-print'abc'
+
 local pcall = pcall
 
 local function checkPermission(instance)
